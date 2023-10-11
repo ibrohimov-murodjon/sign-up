@@ -1,0 +1,231 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f0f5f5;
+}
+.container {
+  width: 100%;
+  max-width: 1223px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card {
+  /* height: 713px; */
+  display: flex;
+}
+.left__container {
+  width: 551px;
+  height: 713px;
+  background: #2dcfc1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.left__title {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.84px;
+  max-width: 302px;
+  padding-top: 24px;
+}
+.left__text {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 309px;
+}
+.dots__container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dots {
+  width: 6px;
+  height: 6px;
+  border-radius: 4px;
+  background: rgba(239, 242, 245, 0.7);
+}
+.active {
+  width: 12px;
+  height: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+.right__container {
+  background: #fff;
+  width: 631px;
+  padding: 33px 39px 75px 65px;
+   border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.cancel__svg {
+  margin-left: auto;
+  display: flex;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.form__container {
+  padding-top: 33px;
+}
+.login__text {
+  color: #344055;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 44px;
+}
+.form__desc {
+  color: #b6b8c3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 460px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed;
+  stroke-width: 1px;
+  stroke: rgba(44, 62, 80, 0.2);
+}
+.form {
+  margin-top: 60px;
+  max-width: 377px;
+}
+.form__label {
+  color: #6f7d97;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px; /* 120% */
+}
+.form__input {
+  width: 100%;
+  padding: 23px 13px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  margin-top: 10px;
+  color: #6f7d97;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+}
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 1.5px solid var(--neutral-light-darkest, #c5c6cc);
+}
+.checkbox__container {
+  margin-top: 29px;
+  display: flex;
+  gap: 12px;
+}
+.terms__text {
+  color: #5e6f88;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.14px;
+  max-width: 323px;
+}
+.terms__link {
+  color: #2dcfc1;
+  text-decoration: none;
+}
+.submit__btn {
+  border-radius: 8px;
+  background: #2dcfc1;
+  padding: 22px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 33px;
+  border:none;
+  cursor:pointer
+}
+.referral__link{
+  color: #2DCFC1;
+text-align: right;
+font-size: 14px;
+font-weight: 700;
+margin-top: 20px;
+display: flex;
+margin-left: auto;
+justify-content: end;
+}
